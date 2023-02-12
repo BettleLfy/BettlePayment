@@ -15,7 +15,8 @@
 - В корневой папке(где находится settings.py) 'payment' создать файл '.env' и записать в него секретные ключи, к примеру:
 ```SECRET_KEY = awduaw123huhanj65o785lz
    STRIPE_PUBLISHABLE_KEY='pk_test_51MZcdQC09SxA8Y879Y2H19z1EcaxXmTQklnMY6UqjgRNrHTThc'
-   STRIPE_SECRET_KEY='sk_test_51MZcdQC09SxA8Y87pUTjzCiDN9QqMYHrUbtHGyr4pYRJLvKk9wKjHX7xkW8u1HKzk381naIn7iA6800qeFPF7XT'```
+   STRIPE_SECRET_KEY='sk_test_51MZcdQC09SxA8Y87pUTjzCiDN9QqMYHrUbtHGyr4pYRJLvKk9wKjHX7xkW8u1HKzk381naIn7iA6800qeFPF7XT'
+```
 - Сделать миграции в БД с помощью:
 ```python manage.py migrate```
 - После этих действий можно запустить сам django server:
